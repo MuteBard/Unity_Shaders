@@ -2,7 +2,7 @@
 #### Tags: [normal mapping, bump mapping]
 
 ## What will this be about?
-     We'll examine how to modify this normal re mentioned from DEV-06 to generate a raised texture on a flat surface. This technique
+     We'll examine how to modify the normals mentioned in DEV-06 to generate a raised texture on a flat surface. This technique
      is called Normal Mapping.
 
 ## Recap on Lambert
