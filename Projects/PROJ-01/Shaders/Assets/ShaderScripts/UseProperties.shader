@@ -3,11 +3,13 @@ Shader "Holistic/AllProps"
     Properties
     {
         _myColor("Example Color", Color) = (1,1,1,1)
+        _myColor2("Example Color 2", Color) = (1,1,1,1)
         _myRange("Example Range", Range(0, 5)) = 1
         _myTex("Example Texture", 2D) = "white" {}
         _myCube("Example Cube", CUBE) = "" {}
         _myFloat("Example Float", Float) = 0.5
         _myVector("Example Vector", Vector) = (0.5,1,1,1)
+
     }
     SubShader
     {
@@ -15,6 +17,7 @@ Shader "Holistic/AllProps"
             #pragma surface surf Lambert
 
             fixed4 _myColor;
+            fixed4 _myColor2;
             half _myRange;
             sampler2D _myTex;
             samplerCUBE _myCube;
@@ -24,11 +27,12 @@ Shader "Holistic/AllProps"
             struct Input {
                 float2 uv_myTex;
                 float3 worldRefl;
+                float3 worldPos;
             };
-
+// https://docs.unity3d.com/Manual/SL-SurfaceShaders.html
             void surf (Input IN, inout SurfaceOutput o){
-                o.Albedo = (tex2D(_myTex, IN.uv_myTex) * _myRange).rgb;
-                o.Emission = texCUBE(_myCube, IN.worldRefl).rgb;
+                o.Albedo = (tex2D(_myTex, IN.uv_myTex) * _myRange * _myColor).rgb;
+                o.Emission = (texCUBE(_myCube, IN.worldRefl) * _myColor2).rgb;
             }
         ENDCG
     }
