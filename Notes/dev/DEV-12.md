@@ -12,7 +12,7 @@
     then you get very clean values between 1 and -1.
 
 
-    But if you're ever working with ANY vector and you want to make sure that your dot product does give
+    But if you're ever working with ANY vector and you want to make sure that the dot product does give
     you a value between 1 and -1, you will have to ensure that both of these vectors in here are normalized.
 
     dot(normalize(IN.viewDir, o.Normal));
@@ -22,8 +22,8 @@
 
 ## Step 1
 
-    So rather than have the brightest (or most colorful) part right where we're looking at it, we want it to
-    be on the edges. So we need to reverse it with 1-.
+    So rather than have the brightest (or most colorful) part right where I're looking at it, I want it to
+    be on the edges. So I need to reverse it with 1-.
 
 ![](../images/DEV-12/DEV-12-C.png)
 
@@ -36,8 +36,8 @@
     multiplying it by -1 is kind of worthless. 1 is having that color full on
     at that particular color and having it at 0 is having none of that color.
     Having a -1 isn't really doing anything for us.
-    So rather than have the dot between -1 and 1, we want to move it so that it's between 0 and 1
-    and to do that we use a function called 'saturate'.
+    So rather than have the dot between -1 and 1, I want to move it so that it's between 0 and 1
+    and to do that I use a function called 'saturate'.
 
 ![](../images/DEV-12/DEV-12-E.png)
 
@@ -45,7 +45,7 @@
 
     To figure out how to modify the dot product to compress
     values into one part of a model and not another,
-    we need to turn to mathematics.
+    I need to turn to mathematics.
 
 ![](../images/DEV-12/DEV-12-F.png)
 

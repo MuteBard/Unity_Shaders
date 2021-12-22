@@ -29,8 +29,8 @@ Shader "Holistic/RimLighting"
                 half rim = 1 - saturate(dot(normalize(IN.viewDir), o.Normal));
                 // o.Emission = _RimColor.rgb * pow(rim, _RimThickness);
                 o.Albedo = _Color1.rgb;
-                // o.Emission = _RimColor.rgb * rim > 0.5 ? _Color2 :  rim > 0.3 ? _Color3 : _Color1.rgb;
-                o.Emission = frac(IN.worldPos.y * 10 * 0.5) > 0.8 ? float3(0,0,0) :  _RimColor.rgb * rim > 0.5 ? _Color2 :  rim > 0.3 ? _Color3 : _Color1.rgb;
+                o.Emission = _RimColor.rgb * rim > 0.5 ? _Color2 :  rim > 0.3 ? _Color3 : _Color1.rgb;
+                // o.Emission = frac(IN.worldPos.y * 10 * 0.5) > 0.8 ? float3(0,0,0) :  _RimColor.rgb * rim > 0.5 ? _Color2 :  rim > 0.3 ? _Color3 : _Color1.rgb;
             }
 
         ENDCG

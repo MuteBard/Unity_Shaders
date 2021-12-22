@@ -86,7 +86,7 @@
 
 ![](../images/DEV-11/DEV-11-AB.png)
 
-     Given the view direction and all the normals on the model, we can use a dot product to determine which sides of the mesh are facing toward the viewer and those that are facing away. But not only that, we can also tell how MUCH they are facing the viewer.
+     Given the view direction and all the normals on the model, I can use a dot product to determine which sides of the mesh are facing toward the viewer and those that are facing away. But not only that, I can also tell how MUCH they are facing the viewer.
 
      Any normals that make a dot product with the view vector close to 1 will represent faces of the model that face (or sit quite perpendicular to) the viewer.
 

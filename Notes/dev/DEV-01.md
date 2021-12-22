@@ -11,7 +11,7 @@
     - Rasterisation
 
     The application phase runs on the CPU an involves all the processes that occur in the software, including mving objects, collisions,
-    input etc. Its's all the behind-scene stuff that makes your project functions.
+    input etc. Its's all the behind-scene stuff that makes the project functions.
 
     This affects the Geometry Phase which determines how the virtual world is situated with repsect to the player. It involves calculations about the position of the camera, the rotation, transformations and scaling of the world and all the polygons.
 
@@ -38,7 +38,7 @@
 ![](../images/DEV-01/DEV-01-A.png)
 
 ## Illumination
-    Next comes illumination, this is where the models are colored and lit. This is the specific area in the pipline we are interested in. Before the advent of Modern GPUs, the functionality of illumination was fixed. That means the developer had no control over how the model was processed. However today, through the use of modern shader languages, you can specify how the illumination stage will run and the order that these filters occur.
+    Next comes illumination, this is where the models are colored and lit. This is the specific area in the pipline I am interested in. Before the advent of Modern GPUs, the functionality of illumination was fixed. That means the developer had no control over how the model was processed. However today, through the use of modern shader languages, you can specify how the illumination stage will run and the order that these filters occur.
 
 ![](../images/DEV-01/DEV-01-B.png)
 

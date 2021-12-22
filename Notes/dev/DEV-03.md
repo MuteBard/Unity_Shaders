@@ -3,7 +3,7 @@
 
 ## Shader Code
 
-    When we are writing HLSL wh are not technically writing all the code in the graphics pipeline. 
+    When I am writing HLSL wh are not technically writing all the code in the graphics pipeline. 
     We are writing just enough code to compile into a shader.
 
     Shader code is executed on a per-vertex or per-pixel basis

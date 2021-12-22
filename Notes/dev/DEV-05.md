@@ -16,7 +16,7 @@
 
 ## Properties
 
-    Properties are the way we get values from the inspector into the shader. 
+    Properties are the way I get values from the inspector into the shader. 
 
 ![](../images/DEV-05/DEV-05-A.png)
 

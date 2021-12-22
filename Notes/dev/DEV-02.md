@@ -50,7 +50,7 @@
 
 ![](../images/DEV-02/DEV-02-H.png)
 
-    Parameters / A struct declares the input data that will be required by your function. This can include vertex, normal, uv and other information about the model's mesh
+    Parameters / A struct declares the input data that will be required by the function. This can include vertex, normal, uv and other information about the model's mesh
 
 ![](../images/DEV-02/DEV-02-I.png)
 
@@ -59,7 +59,7 @@
 
 ![](../images/DEV-02/DEV-02-J.png)
 
-    Then we actually call our sharder function. It takes in the struct Input that you declared. it also specifies the output.
+    Then I actually call our sharder function. It takes in the struct Input that you declared. it also specifies the output.
     The output structure changes changes depending on the lighting model used. In this case, the lighting is Lambert and therefore
     the output is the SurfaceOutput struct.
 
@@ -69,7 +69,7 @@
 
 ## Fallback
 
-    Last a shader is given a fallback. This is a basic less GPU-heavy effect to use on the surface of your moodel should the machine the shader is running on is incapable of running your code.
+    Last a shader is given a fallback. This is a basic less GPU-heavy effect to use on the surface of the moodel should the machine the shader is running on is incapable of running the code.
 
 ![](../images/DEV-02/DEV-02-M.png)
 

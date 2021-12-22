@@ -2,8 +2,8 @@
 #### Tags: [Lighting]
 
 ## Lambert
-    So far we've been using a lighting model called Lambert, with very little discussion about what it's doing.
-    But before we can go any further in developing more complex shaders, it's crucial to your understanding
+    So far I've been using a lighting model called Lambert, with very little discussion about what it's doing.
+    But before I can go any further in developing more complex shaders, it's crucial to the understanding
     to have a look at what Lambert is and how Lambert works. 
 
     A lighting model is used to calculate the amount of reflected light from a surface

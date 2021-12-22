@@ -1,7 +1,7 @@
 # DEV-08, Illumination Models
 #### Tags: [Illumination Models]
 
-## Why do we care about Illumination Models
+## Why do I care about Illumination Models
 
     The normals across the surface of each polygon are being calculated on a per-pixel basis
     rather than using the geometric normals at each vertex. How the normal data from a model is dealt with

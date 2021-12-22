@@ -31,7 +31,7 @@
     While all the versions of Unity employ both Lambert and Blinn/Phong, since Unity 5 developers have had access to the Standard and Standard Specular shaders that follow a Physically Based Rendering lighting model.
 
     The goal with PBR is ultimately photorealism. As you can imagine,
-    it is far more complex than the simple models we've looked at so far.
+    it is far more complex than the simple models I've looked at so far.
     The PBR pipeline focuses on seven areas. Reflection, Diffusion, Translucency and transparency, Conservation of Energy, Metallicity, Fresnel Reflectivity and Microsurface Scattering.
 
 ### Reflection

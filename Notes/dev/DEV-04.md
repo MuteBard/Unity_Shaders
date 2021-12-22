@@ -79,11 +79,11 @@ https://github.com/MuteBard/Unity_Voxel/blob/main/Projects/PROJ-01/Voxel/Assets/
 
 ![](../images/DEV-04/DEV-04-F5.png)
 
-    Even though you there are times we dont use it, it is required as Input by the surface shader function
+    Even though you there are times I dont use it, it is required as Input by the surface shader function
 
 ![](../images/DEV-04/DEV-04-F6.png)
 
-    When we start manipulating the meshData via the input structure, you can create all sorts of exciting visuals
+    When I start manipulating the meshData via the input structure, you can create all sorts of exciting visuals
 
 ![](../images/DEV-04/DEV-04-H.png)
 ![](../images/DEV-04/DEV-04-H2.png)
@@ -93,5 +93,5 @@ https://github.com/MuteBard/Unity_Voxel/blob/main/Projects/PROJ-01/Voxel/Assets/
 
 ![](../images/DEV-04/DEV-04-H4.png)
 
-    The important takeaway is that the 3D mesh has many values that are required to manipulate how a material will visually present on a surface and it's the job of the input struct to get these values to your shader function.
+    The important takeaway is that the 3D mesh has many values that are required to manipulate how a material will visually present on a surface and it's the job of the input struct to get these values to the shader function.
 

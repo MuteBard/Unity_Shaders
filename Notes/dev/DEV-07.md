@@ -25,7 +25,7 @@
     It's important to note that these new normals are only for visual effects. They don't actually modify the geometry of the mesh.
 
 ## Diffuse Map
-    What we have been using so far, its a texture that surve to only add color to the mesh.
+    What I have been using so far, its a texture that surve to only add color to the mesh.
     Lambert lighting treats it as a flat and light it evently across the surface.
 
 ## Normal Map
