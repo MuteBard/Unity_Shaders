@@ -38,3 +38,5 @@
 
 ![](../images/DEV-18/DEV-18-D.png)
 
+https://docs.unity3d.com/Manual/SL-ColorMask.html
+
